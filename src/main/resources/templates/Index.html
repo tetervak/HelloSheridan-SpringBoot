@@ -39,5 +39,14 @@
             </a>
         </li>
     </ul>
+    <h2>Path Variables in Links</h2>
+    <ul>
+        <li>
+            <a href="Hello.html" th:href="@{Hello/{name}(name='Homer')}">Hello Homer</a>
+        </li>
+        <li>
+            <a href="Hello.html" th:href="@{Hello/{name}(name='Marge Simpson')}">Hello Marge Simpson</a>
+        </li>
+    </ul>
 </body>
 </html>
