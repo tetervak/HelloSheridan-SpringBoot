@@ -3,6 +3,7 @@ package sheridan.tetervak.hellosheridan.domain;
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
+@SuppressWarnings("unused")
 public class User implements Serializable {
 
     @NotBlank

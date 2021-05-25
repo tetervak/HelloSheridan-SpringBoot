@@ -10,6 +10,7 @@ public class IndexController {
 
     private final Logger logger = LoggerFactory.getLogger(IndexController.class);
 
+    @SuppressWarnings("SameReturnValue")
     @GetMapping(value = {"/", "/Index"})
     public String index(){
         logger.trace("index() is called");
