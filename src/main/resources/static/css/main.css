@@ -1,8 +1,31 @@
+body{
+    font-family: sans-serif;
+    padding-left: 1em;
+    background-color: antiquewhite;
+}
 h1{
     color: darkgreen;
 }
 h2{
     color: darkblue;
+}
+h3{
+    color: darkcyan;
+}
+label{
+    font-weight: bold;
+    color: dodgerblue;
+}
+span.output{
+    font-style: italic;
+    color: blueviolet;
+}
+h3.error{
+    color: brown;
+}
+li.error{
+    font-style: italic;
+    color: crimson;
 }
 label{
     font-weight: bold;

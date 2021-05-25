@@ -7,8 +7,24 @@
 </head>
 <body>
   <h1>Output</h1>
-  <p>First Name:<span th:text="${user.firstName}">Bart</span></p>
-  <p>Last Name:<span th:text="${user.lastName}">Simpson</span></p>
-  <p><a href="Input.html" th:href="@{Input}">Back to Input</a></p>
+  <p>
+      <label>
+          First Name:
+      </label>
+      <span class="output" th:text="${user.firstName}">
+          Bart
+      </span>
+  </p>
+  <p>
+      <label>
+          Last Name:
+      </label>
+      <span class="output" th:text="${user.lastName}">
+          Simpson
+      </span>
+  </p>
+  <p>
+      <a href="Input.html" th:href="@{Input}">Back to Input</a>
+  </p>
 </body>
 </html>
